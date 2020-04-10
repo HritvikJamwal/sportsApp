@@ -7,24 +7,6 @@
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
 <link rel='stylesheet' href='https://startbootstrap.com/templates/agency/font-awesome-4.1.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
 <link rel="shortcut icon" type="image/png" href="./img/logo.png"/>
-
-<script>
-    window.onscroll = function() {
-      growShrinkLogo()
-    };
-    
-    function growShrinkLogo() {
-        document.getElementById("Logo").style.transition = "all 0.3s";
-      var Logo = document.getElementById("Logo")
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        Logo.style.width = '50px';
-        Logo.style.height = '50px'
-      } else {
-        Logo.style.width = '110px';
-        Logo.style.height = '110px'
-      }
-    }
-    </script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -54,7 +36,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="">
-                        <a class="page-scroll" href="">Home</a>
+                        <a class="page-scroll" href="#">Home</a>
                     </li>
                     <li class="">
                         <a class="page-scroll" href="#portfolio">About Us</a>
@@ -77,13 +59,10 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Hello Errbody</div>
-                <div class="intro-heading">Yes Mel, Ajmal, Chien, Junne maybe and Syok.</div>
-                <a href="#services" class="page-scroll btn btn-xl">Aku Bukan Sempit</a>
-            </div>
+        <div class="horizontal-img">
+            <img class="website-banner"src="./img/website banner.jpg">
         </div>
+
     </header>
 
     <!-- Services Section -->
